@@ -1,4 +1,4 @@
-package br.com.spindola.unicesumar.models;
+package br.com.spindola.unicesumar.models.entities;
 
 public class Cliente {
 	
