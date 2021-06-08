@@ -20,6 +20,7 @@ public class ProdutoController {
 	@PostMapping
 	public @ResponseBody Produto novoProduto(@RequestParam String nome) {
 		Produto produto = new Produto(nome);
+		System.out.println(produto.repository);
 		produtoRepository.save(produto);
 		return produto;
 	}
