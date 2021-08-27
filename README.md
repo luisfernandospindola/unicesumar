@@ -1,2 +1,2 @@
 # unicesumar
-Exercícios Spring Boot
+Projeto RESTful API com Spring Boot
